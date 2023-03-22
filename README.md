@@ -1,36 +1,46 @@
-# Vite And Tailwind Setup Project
+# Frontend Mentor - Results summary component solution
 
-โปรเจคนี้จัดทำขึ้นเพื่อ อำนวยความสะดวกในการสร้างโปรเจคที่ประกอบด้วย **Vite** และ **Tailwind** และรูปแบบการเขียนจะเป็นแบบธรรมดา **Vanila**
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Vite And Tailwind Setup Project](#vite-and-tailwind-setup-project)
+- [Frontend Mentor - Results summary component solution](#frontend-mentor---results-summary-component-solution)
   - [Table of contents](#table-of-contents)
-  - [Setup Project](#setup-project)
-  - [Version](#version)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+    - [Built with](#built-with)
+  - [Author](#author)
 
-## Setup Project
+## Overview
 
----
+### The challenge
 
-```cmd
+Users should be able to:
 
-cd Setup-Project-Vite-Tailwind-Vanila
-npm i
-npm run dev
-```
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-หลักจากนั้นให้ทำการ **`Watch`** Tailwind ด้วยคำสั้ง
+### Screenshot
 
-```cmd
-npx tailwindcss -i ./style/main.css -o ./style/style.css --watch
-```
+![](screencapture.png)
 
-**Coding Time** 😎
+### Links
 
-## Version
+- Live Site URL: [live site URL ](https://calm-piroshki-21284b.netlify.app/)
+- Github URL: [Git](https://github.com/Sittisukintaruk/results-summary-component-main)
 
----
+### Built with
 
-- Tailwind: 3.2.7
-- vite: 4.1.0
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Tailwind
+- vite
+
+## Author
+
+- Frontend Mentor - [@Sitthisak Intharak](https://www.frontendmentor.io/profile/Sittisukintaruk)

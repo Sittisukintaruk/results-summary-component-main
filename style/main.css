@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-700 focus:ring-blue-400 rounded-lg py-2 px-4 font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+  }
+
+  .bg-gradients {
+    background: linear-gradient(
+      180deg,
+      #7857ff 0%,
+      #2e2be9 99.99%,
+      rgba(217, 217, 217, 0) 100%
+    );
+  }
+  .bg-ellipse {
+    background: linear-gradient(180deg, #4e21ca 0%, rgba(36, 33, 202, 0) 100%);
+  }
+
+  .Summary-item {
+    @apply flex items-center justify-between rounded-[10px]  px-4 py-4 text-sm lg:text-base;
+  }
+
+  .Summary-item svg {
+    @apply stroke-2;
+  }
+
+  .Summary-item svg + p,
+  .Summary-item span {
+    @apply font-extrabold;
+  }
+
+  .Summary-item span + p {
+    @apply ml-2 font-medium;
+  }
+
+  .Summary-item div:nth-child(1) {
+    @apply flex gap-3;
+  }
+
+  .Summary-item div:nth-child(2) {
+    @apply flex;
+  }
+}
